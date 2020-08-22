@@ -1,3 +1,14 @@
 .main-layout {
 	padding: 1rem 2rem;
+	height: 100vh;
+	box-sizing: border-box;
+
+	.main-columns {
+		display: flex;
+		height: calc(100vh - 6.5rem);
+
+		.children-container {
+			flex: 1;
+		}
+	}
 }

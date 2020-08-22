@@ -5,9 +5,16 @@ import MainLayout from './Components/MainLayout/MainLayout';
 
 function App() {
 	return (
-		<div className='App'>
-			<MainLayout>some react router routes / content</MainLayout>
-		</div>
+		<BrowserRouter>
+			<MainLayout>
+				<Switch>
+					<Route path='/' exact>
+						Home page
+					</Route>
+					<Route>404</Route>
+				</Switch>
+			</MainLayout>
+		</BrowserRouter>
 	);
 }
 
