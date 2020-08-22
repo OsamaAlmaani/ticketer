@@ -1,0 +1,56 @@
+.site-header {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 1rem;
+	align-items: center;
+
+	.logo-container {
+		display: flex;
+		align-items: center;
+
+		.title {
+			font-weight: normal;
+		}
+
+		.blue {
+			color: #0191ff;
+			font-weight: bold;
+		}
+
+		img {
+			height: 3rem;
+			margin-right: 0.8rem;
+		}
+	}
+
+	.user-badge {
+		display: flex;
+		align-items: center;
+		text-align: right;
+
+		.user-badge-title-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+
+			.user-badge-title {
+				letter-spacing: 2px;
+				margin-bottom: 0.1rem;
+			}
+
+			.user-badge-subtitle {
+				font-weight: lighter;
+				margin-top: 0.1rem;
+			}
+		}
+
+		img {
+			border-radius: 1.75rem;
+			width: 3.5rem;
+			height: 3.5rem;
+			object-fit: cover;
+			margin-left: 1rem;
+			box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
+		}
+	}
+}
