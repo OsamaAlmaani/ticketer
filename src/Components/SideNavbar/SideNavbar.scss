@@ -42,13 +42,16 @@
 	.navbar-item-container {
 		display: flex;
 		align-items: center;
-		margin: 2rem 0;
+		padding: 1rem 0;
+		cursor: pointer;
+		background-image: linear-gradient(90deg, transparent, transparent, transparent, transparent);
+		transition: background-image 300ms;
 
 		.icon-container {
 			height: 3rem;
 			width: 3rem;
 			color: #ffffff;
-			border-radius: 1rem;
+			border-radius: 0.8rem;
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -72,12 +75,22 @@
 		.title-container {
 			.title {
 				margin-bottom: 0.4rem;
-				color: var(--black);
+				color: var(--grey);
 			}
 
 			.subtitle {
 				font-size: 0.7rem;
 				color: var(--light-grey);
+			}
+		}
+
+		&.active {
+			background-image: linear-gradient(90deg, transparent, #1899f51a 25%, #1899f51a 75%, transparent);
+
+			.title-container {
+				.title {
+					color: var(--black);
+				}
 			}
 		}
 	}
