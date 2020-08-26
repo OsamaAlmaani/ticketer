@@ -1,5 +1,5 @@
 .main-layout {
-	padding: 1rem 2rem;
+	padding: 1rem 0 1rem 2rem;
 	height: 100vh;
 	box-sizing: border-box;
 
@@ -9,6 +9,9 @@
 
 		.children-container {
 			flex: 1;
+			padding: 1.8rem 2.5rem;
+			background-color: var(--main-background-color);
+			border-radius: 3rem 0 0 3rem;
 		}
 	}
 }

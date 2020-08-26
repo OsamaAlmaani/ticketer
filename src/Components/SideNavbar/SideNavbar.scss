@@ -1,6 +1,5 @@
 .side-navbar {
-	padding-top: 2rem;
-	padding-right: 2rem;
+	padding: 2rem 2rem 0 0;
 
 	.title {
 		margin-bottom: 0.4rem;
@@ -32,9 +31,14 @@
 			box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 			color: var(--black);
 			min-width: 16rem;
+			transition: box-shadow 250ms;
 
 			&::placeholder {
 				color: var(--placeholder-light-grey);
+			}
+
+			&:focus {
+				box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.05);
 			}
 		}
 	}

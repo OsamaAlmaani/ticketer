@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import MainLayout from './Components/MainLayout/MainLayout';
+import MyTickets from './Components/MyTickets/MyTickets';
 
 function App() {
 	return (
@@ -9,7 +10,7 @@ function App() {
 			<MainLayout>
 				<Switch>
 					<Route path='/' exact>
-						Home page
+						<MyTickets />
 					</Route>
 					<Route>404</Route>
 				</Switch>
