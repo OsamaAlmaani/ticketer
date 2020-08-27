@@ -8,6 +8,26 @@
 		}
 
 		.main-btn {
+			cursor: pointer;
+			outline: none;
+			border: 0;
+			vertical-align: middle;
+			text-decoration: none;
+			background-color: var(--blue);
+			padding: 0.7rem 1.5rem;
+			color: #ffffff;
+			font-weight: bold;
+			border-radius: 0.6rem;
+			transition: letter-spacing cubic-bezier(0.65, -0.25, 0.25, 1.95) 400ms;
+
+			&:hover {
+				letter-spacing: 0.5px;
+				background-color: var(--hover-blue);
+			}
+
+			&:active {
+				background-color: var(--light-blue);
+			}
 		}
 	}
 }
