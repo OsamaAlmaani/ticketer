@@ -3,6 +3,8 @@
 A new ticketing / Help Center project (Work in Progress and not ready for testing or evaluation)
 PRs are welcome.
 
+[![Wallaby.js](https://img.shields.io/badge/wallaby.js-powered-blue.svg?style=for-the-badge&logo=github)](https://wallabyjs.com/oss/)
+
 ## Available Scripts
 
 In the project directory, you can run:
